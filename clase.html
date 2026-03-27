@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clase — DragZone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <a href="index.html" id="logo">⚡ DRAG<span>ZONE</span></a>
+    <nav id="main-nav">
+      <a href="index.html"    class="nav-link">Acasă</a>
+      <a href="termeni.html"  class="nav-link">Termeni &amp; Cursă</a>
+      <a href="clase.html"    class="nav-link active">Clase</a>
+      <a href="contact.html"  class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== LAYOUT ===== -->
+  <div id="layout">
+
+    <!-- SIDEBAR STÂNGA -->
+    <aside id="sidebar">
+      <p class="sb-section-title">Pe această pagină</p>
+      <ul id="sidebar-links"></ul>
+
+      <div class="sb-divider"></div>
+
+      <div class="sb-widget">
+        <p class="sb-widget-title">🏁 Competiții FIA</p>
+        <ul class="flag-list">
+          <li onclick="window.open('https://www.santapod.com','_blank')" style="cursor:pointer">
+            <span class="flag">🇬🇧</span>
+            <span class="flag-name">Santa Pod</span>
+            <span class="flag-loc">Anglia</span>
+          </li>
+          <li onclick="window.open('https://www.rodrag.ro','_blank')" style="cursor:pointer">
+            <span class="flag">🇷🇴</span>
+            <span class="flag-name">RoDrag</span>
+            <span class="flag-loc">România</span>
+          </li>
+          <li onclick="window.open('https://www.hockenheimring.de','_blank')" style="cursor:pointer">
+            <span class="flag">🇩🇪</span>
+            <span class="flag-name">Hockenheim</span>
+            <span class="flag-loc">Germania</span>
+          </li>
+          <li onclick="window.open('https://www.autodromodivoghera.it','_blank')" style="cursor:pointer">
+            <span class="flag">🇮🇹</span>
+            <span class="flag-name">Rivanazzano</span>
+            <span class="flag-loc">Italia</span>
+          </li>
+          <li onclick="window.open('https://www.kiskunlachazadragway.hu','_blank')" style="cursor:pointer">
+            <span class="flag">🇭🇺</span>
+            <span class="flag-name">Kiskunlacháza</span>
+            <span class="flag-loc">Ungaria</span>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- CONȚINUT PRINCIPAL -->
+    <main id="content">
+
+      <h1>Clase de Competiție</h1>
+
+      <h2 id="fia-pro">Clase FIA &amp; NHRA Profesionale</h2>
+      <p>
+        Sistemul de clasificare FIA și NHRA împarte vehiculele în categorii distincte,
+        determinate de tipul de motor, combustibilul utilizat și nivelul de modificare
+        față de specificațiile de serie. Fiecare clasă are propriile limite tehnice,
+        impuse prin regulament omologat anual.
+      </p>
+
+      <div class="card-grid">
+
+        <div class="card">
+          <img
+            src="poze/p19__FillWzExNzAsNjAwXQ.jpg"
+            alt="Top Fuel Dragster"
+          />
+          <div class="card-body">
+            <h3>Top Fuel Dragster</h3>
+            <p>
+              Clasa de vârf a drag racing-ului mondial. Vehiculele utilizează motoare
+              supraalimentate de 500 CID (8,2 L), alimentate cu nitromethan 90%, care
+              generează între 8.000 și 11.000 CP. Sfertul de milă este parcurs în sub
+              <strong>3,7 secunde</strong>, la viteze ce depășesc 530 km/h.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="Poze/richard-bell-l-8upnZX4Vw-unsplash.jpg"
+            alt="Funny Car"
+          />
+          <div class="card-body">
+            <h3>Funny Car</h3>
+            <p>
+              Categoria utilizează aceeași tehnologie de motor ca Top Fuel Dragster,
+              însă vehiculele sunt echipate cu o caroserie <em>flip-top</em> care imită
+              silueta unui automobil de serie. Ampatamentul mai scurt face vehiculul
+              mai dificil de controlat. ET tipic: sub <strong>3,9 secunde</strong>.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body" style="padding-top:1.1rem">
+            <h3>Pro Stock</h3>
+            <p>
+              Supranumite „Factory Hot Rods", aceste vehicule păstrează o siluetă
+              apropiată de modelele de producție, dar sunt echipate cu motoare
+              aspirate natural de 500 CID, fără turbocompresie sau nitromethan.
+              ET tipic: circa <strong>6,5 secunde</strong> la 340 km/h.
+            </p>
+            <h3 style="margin-top:.9rem">Pro Stock Motorcycle</h3>
+            <p>
+              Motociclete cu motoare de peste 1500 cm³ și aproximativ 280 CP,
+              care parcurg sfertul de milă în circa <strong>6,8 secunde</strong>
+              la 310 km/h, fără cutie de viteze — transmisie directă.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body" style="padding-top:1.1rem">
+            <h3>Top Alcohol Dragster</h3>
+            <p>
+              O treaptă inferioară față de Top Fuel, această clasă utilizează
+              metanol sau nitromethan diluat, cu o putere de aproximativ 4.000 CP.
+              Reprezintă o cale de acces accesibilă spre nivelul profesionist.
+              ET tipic: sub <strong>5,2 secunde</strong>.
+            </p>
+            <h3 style="margin-top:.9rem">Top Alcohol Funny Car</h3>
+            <p>
+              Aceleași specificații tehnice ca Top Alcohol Dragster, dar cu
+              caroserie tip Funny Car. Oferă un spectacol vizual deosebit
+              și atrage mulți sponsori datorită suprafeței mari de branding.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <h2 id="compact">Clase Compact &amp; Street</h2>
+      <p>
+        Clasele compacte și de stradă sunt concepute pentru a fi accesibile publicului larg.
+        Vehiculele pot fi folosite în trafic cotidian și modificate progresiv, pe măsura
+        creșterii bugetului și experienței pilotului. Aceste clase reprezintă principalul
+        punct de intrare în motorsportul de drag pentru amatori și semi-profesioniști.
+      </p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Clasă</th>
+            <th>Tracțiune</th>
+            <th>ET tipic</th>
+            <th>Descriere</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Street</td>
+            <td>FWD / RWD / AWD</td>
+            <td>12 – 16 sec</td>
+            <td>Vehicule rutiere omologate, modificări minime permise</td>
+          </tr>
+          <tr>
+            <td>Street FWD</td>
+            <td>Față (FWD)</td>
+            <td>10 – 13 sec</td>
+            <td>Tracțiune față; frecvent cilindree mici cu turbocompresor</td>
+          </tr>
+          <tr>
+            <td>Pro FWD</td>
+            <td>Față (FWD)</td>
+            <td>8 – 10 sec</td>
+            <td>Modificări extensive, turbo de mare debit, roll bar obligatoriu</td>
+          </tr>
+          <tr>
+            <td>Street RWD</td>
+            <td>Spate (RWD)</td>
+            <td>10 – 13 sec</td>
+            <td>Tracțiune spate; mașini musculare sau sportive modificate</td>
+          </tr>
+          <tr>
+            <td>Pro RWD</td>
+            <td>Spate (RWD)</td>
+            <td>7 – 9 sec</td>
+            <td>Motor de mare putere, suspensie de competiție, bare de siguranță</td>
+          </tr>
+          <tr>
+            <td>Pro AWD</td>
+            <td>Integrală (AWD)</td>
+            <td>7 – 9 sec</td>
+            <td>Tracțiune integrală; aderență superioară și putere maximizată</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- PANOU DREAPTA — Recorduri -->
+    <aside id="right-panel">
+      <p class="rp-title">🏆 Recorduri Mondiale</p>
+
+      <div class="record-card">
+        <div class="record-class">Top Fuel</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>3.623 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>546.9 km/h</strong></div>
+        <div class="record-pilot">Steve Torrence, 2023</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Funny Car</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>3.793 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>534.3 km/h</strong></div>
+        <div class="record-pilot">John Force, 2023</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Pro Stock</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>6.394 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>354.2 km/h</strong></div>
+        <div class="record-pilot">Erica Enders, 2022</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Pro Stock Moto</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>6.696 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>314.5 km/h</strong></div>
+        <div class="record-pilot">Matt Smith, 2021</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Top Alcohol Dragster</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>5.096 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>435.1 km/h</strong></div>
+        <div class="record-pilot">Michelle Furr, 2022</div>
+      </div>
+
+      <p class="rp-dist-title">📐 Distanțe Standard</p>
+      <div class="dist-row"><span>⅛ milă</span><strong>201 m</strong></div>
+      <div class="dist-row"><span>¼ milă</span><strong>402 m</strong></div>
+      <div class="dist-row"><span>1000 ft</span><strong>305 m</strong></div>
+    </aside>
+
+  </div><!-- /#layout -->
+
+  <footer id="footer">
+    <p>© 2025 DragZone — Atestat Informatică, Clasa a XII-a, Profil Mate-Info Intensiv</p>
+    <p>Realizat cu HTML, CSS &amp; JavaScript Vanilla</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Termeni &amp; Cursă — DragZone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <a href="index.html" id="logo">⚡ DRAG<span>ZONE</span></a>
+    <nav id="main-nav">
+      <a href="index.html"    class="nav-link">Acasă</a>
+      <a href="termeni.html"  class="nav-link active">Termeni &amp; Cursă</a>
+      <a href="clase.html"    class="nav-link">Clase</a>
+      <a href="contact.html"  class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== LAYOUT ===== -->
+  <div id="layout">
+
+    <!-- SIDEBAR STÂNGA -->
+    <aside id="sidebar">
+      <p class="sb-section-title">Pe această pagină</p>
+      <ul id="sidebar-links"></ul>
+
+      <div class="sb-divider"></div>
+
+      <div class="sb-widget">
+        <p class="sb-widget-title">🏁 Competiții FIA</p>
+        <ul class="flag-list">
+          <li onclick="window.open('https://www.santapod.com','_blank')" style="cursor:pointer">
+            <span class="flag">🇬🇧</span>
+            <span class="flag-name">Santa Pod</span>
+            <span class="flag-loc">Anglia</span>
+          </li>
+          <li onclick="window.open('https://www.rodrag.ro','_blank')" style="cursor:pointer">
+            <span class="flag">🇷🇴</span>
+            <span class="flag-name">RoDrag</span>
+            <span class="flag-loc">România</span>
+          </li>
+          <li onclick="window.open('https://www.hockenheimring.de','_blank')" style="cursor:pointer">
+            <span class="flag">🇩🇪</span>
+            <span class="flag-name">Hockenheim</span>
+            <span class="flag-loc">Germania</span>
+          </li>
+          <li onclick="window.open('https://www.autodromodivoghera.it','_blank')" style="cursor:pointer">
+            <span class="flag">🇮🇹</span>
+            <span class="flag-name">Rivanazzano</span>
+            <span class="flag-loc">Italia</span>
+          </li>
+          <li onclick="window.open('https://www.kiskunlachazadragway.hu','_blank')" style="cursor:pointer">
+            <span class="flag">🇭🇺</span>
+            <span class="flag-name">Kiskunlacháza</span>
+            <span class="flag-loc">Ungaria</span>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- CONȚINUT PRINCIPAL -->
+    <main id="content">
+
+      <h1>Termeni, Cursă &amp; Reguli</h1>
+
+      <h2 id="desfasurare">Desfășurarea unei Curse</h2>
+      <p>
+        O cursă de drag racing urmează un protocol tehnic bine definit. Cele două vehicule
+        se deplasează în zona de <em>staging</em>, unde activează succesiv senzori laser
+        încorporați în pista de start. Odată ce ambii piloți sunt corect poziționați,
+        semaforul de start — cunoscut sub denumirea de <strong>Christmas Tree</strong>
+        (Bradul de Crăciun, datorită dispunerii verticale a luminilor) — inițiază
+        secvența de plecare.
+      </p>
+      <p>
+        Secvența constă în aprinderea a trei lumini galbene la intervale de 0,5 secunde
+        (sau 0,4 secunde în competițiile Pro), urmate de lumina verde — semnalul oficial
+        de start. Orice mișcare a vehiculului înainte de aprinderea luminii verzi este
+        detectată de senzori și sancționată cu <strong>foul start</strong> (start greșit),
+        ceea ce atrage descalificarea imediată a pilotului vinovat.
+      </p>
+      <p>
+        Sistemul electronic de cronometrare înregistrează mai mulți parametri esențiali:
+        <em>Reaction Time</em> (timpul de reacție față de lumina verde),
+        <em>60 ft time</em> și <em>330 ft time</em> (timpi intermediari),
+        <em>ET — Elapsed Time</em> (durata totală a cursei) și viteza la linia de sosire,
+        exprimată în MPH sau km/h.
+      </p>
+
+      <h2 id="burnout">Burnout și Procedura de Staging</h2>
+      <p>
+        Imediat înainte de poziționarea la start, fiecare pilot efectuează
+        <strong>burnout-ul</strong> — o manevră prin care roțile motrice sunt puse în rotație
+        rapidă pe loc, cu vehiculul imobilizat prin frână sau prin sistemul hidraulic
+        <em>line lock</em>. Această procedură servește unui dublu scop:
+      </p>
+      <ul>
+        <li>Îndepărtarea impurităților de pe suprafața anvelopelor</li>
+        <li>
+          Ridicarea temperaturii compoziției de cauciuc pentru a maximiza coeficientul
+          de aderență (<em>stickiness</em>) în momentul startului
+        </li>
+      </ul>
+      <p>
+        Urmează procedura de <strong>staging</strong>: pilotul avansează controlat în zona
+        de start, activând mai întâi fasciculul laser de <em>pre-stage</em>, apoi pe cel
+        de <em>stage</em>. Abia când ambele lumini de staging sunt active pe Christmas Tree,
+        arbitrul de start poate declanșa secvența de plecare.
+      </p>
+
+      <h2 id="siguranta">Siguranță și Echipamente Obligatorii</h2>
+      <p>
+        FIA și NHRA impun cerințe stricte de siguranță, calibrate în funcție de performanța
+        vehiculului. Orice pilot care concurează cu un timp mai mic de 9,99 secunde pe sfert
+        de milă are obligația de a utiliza:
+      </p>
+      <ul>
+        <li>
+          <strong>Costum ignifug</strong> omologat SFI 3.2A/5 sau FIA 8856-2018,
+          care asigură protecție termică în caz de incendiu
+        </li>
+        <li>
+          <strong>Cască integrală</strong> (full-face) certificată FIA sau Snell,
+          cu vizieră rezistentă la impact
+        </li>
+        <li>
+          <strong>Dispozitiv HANS</strong> (Head And Neck Support) — obligatoriu
+          pentru timpi sub 8,50 secunde; reduce riscul leziunilor cervicale în caz de accident
+        </li>
+        <li>
+          <strong>Centură de siguranță cu 5 puncte de prindere</strong> (SFI 16.1),
+          care menține pilotul fix în scaun pe toată durata cursei
+        </li>
+        <li>
+          <strong>Colivie de siguranță</strong> (roll cage) omologată FIA,
+          integrată structural în caroseria vehiculului
+        </li>
+      </ul>
+      <p>
+        Vehiculele care ating viteze foarte mari au obligația utilizării
+        <strong>paraşutei de frânare</strong> (drag chute), desfășurată la trecerea
+        liniei de sosire pentru a reduce viteza în siguranță. Pista de start este pregătită
+        cu <em>VHT TrackBite</em> — o rășină sintetică aplicată pe asfalt care crește
+        semnificativ aderența în zona critică a startului.
+      </p>
+
+      <div class="info-box">
+        <span class="info-icon">⚠️</span>
+        <p>
+          Un motor de Top Fuel consumă aproximativ <strong>15 litri de nitromethan
+          pe secundă</strong> și generează între 10.000 și 12.000 CP — o putere
+          echivalentă cu cea produsă de opt motoare de Formula 1 funcționând simultan.
+        </p>
+      </div>
+
+    </main>
+
+    <!-- PANOU DREAPTA — Recorduri -->
+    <aside id="right-panel">
+      <p class="rp-title">🏆 Recorduri Mondiale</p>
+
+      <div class="record-card">
+        <div class="record-class">Top Fuel</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>3.623 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>546.9 km/h</strong></div>
+        <div class="record-pilot">Steve Torrence, 2023</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Funny Car</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>3.793 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>534.3 km/h</strong></div>
+        <div class="record-pilot">John Force, 2023</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Pro Stock</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>6.394 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>354.2 km/h</strong></div>
+        <div class="record-pilot">Erica Enders, 2022</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Pro Stock Moto</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>6.696 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>314.5 km/h</strong></div>
+        <div class="record-pilot">Matt Smith, 2021</div>
+      </div>
+
+      <div class="record-card">
+        <div class="record-class">Top Alcohol Dragster</div>
+        <div class="record-row"><span>ET (¼ milă)</span><strong>5.096 sec</strong></div>
+        <div class="record-row"><span>Viteză</span><strong>435.1 km/h</strong></div>
+        <div class="record-pilot">Michelle Furr, 2022</div>
+      </div>
+
+      <p class="rp-dist-title">📐 Distanțe Standard</p>
+      <div class="dist-row"><span>⅛ milă</span><strong>201 m</strong></div>
+      <div class="dist-row"><span>¼ milă</span><strong>402 m</strong></div>
+      <div class="dist-row"><span>1000 ft</span><strong>305 m</strong></div>
+    </aside>
+
+  </div><!-- /#layout -->
+
+  <footer id="footer">
+    <p>© 2025 DragZone — Atestat Informatică, Clasa a XII-a, Profil Mate-Info Intensiv</p>
+    <p>Realizat cu HTML, CSS &amp; JavaScript Vanilla</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
